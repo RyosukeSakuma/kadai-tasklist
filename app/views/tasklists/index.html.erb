@@ -1,0 +1,7 @@
+<h1>メッセージ一覧</h1>
+
+<ul>
+  <% @tasklist.each do |tasklist| %>
+    <li><%= tasklist.content %></li>
+  <% end %>
+</ul>
